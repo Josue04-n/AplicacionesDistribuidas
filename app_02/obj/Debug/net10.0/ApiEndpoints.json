@@ -1,0 +1,131 @@
+[
+  {
+    "ContainingType": "app2.Controllers.medicityControllers",
+    "Method": "ActualizarCita",
+    "RelativePath": "api/medicity/distribuida/cita/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "cita",
+        "Type": "app_02.DTO.UpdateCItasDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "app2.Controllers.medicityControllers",
+    "Method": "GetCitaMedicaView",
+    "RelativePath": "api/medicity/distribuida/citasMedicas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "app2.Controllers.medicityControllers",
+    "Method": "GetDiagnosticoView",
+    "RelativePath": "api/medicity/distribuida/diagnostico",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "app2.Controllers.medicityControllers",
+    "Method": "ActualizarDiagnostico",
+    "RelativePath": "api/medicity/distribuida/diagnostico/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "diagnostico",
+        "Type": "app_02.DTO.updateDiagnosticoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "app2.Controllers.medicityControllers",
+    "Method": "GetDoctorView",
+    "RelativePath": "api/medicity/distribuida/doctor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "app2.Controllers.medicityControllers",
+    "Method": "GetPacienteView",
+    "RelativePath": "api/medicity/distribuida/paciente",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "app2.Controllers.medicityControllers",
+    "Method": "ActualizarPaciente",
+    "RelativePath": "api/medicity/distribuida/paciente/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "paciente",
+        "Type": "app_02.DTO.updatePacienteDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "app2.Controllers.medicityControllers",
+    "Method": "GetProductosView",
+    "RelativePath": "api/medicity/distribuida/productos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "app2.Controllers.medicityControllers",
+    "Method": "CrearDoctor",
+    "RelativePath": "api/medicity/distribuida/sp_doctor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "doctor",
+        "Type": "app_02.DTO.DoctorCrearDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
